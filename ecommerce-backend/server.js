@@ -10,7 +10,7 @@ const app = express();
 
 // ✅ Apply CORS before any routes
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://himanshi745.github.io/simple-shop/",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
