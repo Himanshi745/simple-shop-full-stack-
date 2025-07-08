@@ -1,0 +1,11 @@
+# Node modules
+e-commerce/node_modules/
+ecommerce-backend/node_modules/
+
+# Build folders
+e-commerce/build/
+
+# Environment variables
+.env
+ecommerce-backend/.env
+node_modules
