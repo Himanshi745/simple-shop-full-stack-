@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.app {
+  text-align: center;
+}
+
+.home {
+  padding: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  text-decoration: underline;
+}
+
+.product-list {
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-summary {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.home {
+  margin-top: 100px; /* To avoid content being hidden behind navbar */
+}
+.category-section {
+  scroll-margin-top: 100px; /* ensures it's not hidden behind the navbar */
+  padding: 20px;
+}
+
+.footer-cart {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  z-index: 1000;
+}
+
+
+.center-welcome {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.category-section {
+  padding: 1.5rem;
+}
+
+.cart-summary {
+  margin-top: 2rem;
+}
+
+
+.place-order-btn {
+  margin: 1rem;
+  padding: 10px 20px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.place-order-btn:hover {
+  background: #218838;
+}
+
+.regi{
+  border: 2px;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  position: absolute;
+  top: 50%; /* Instead of 50%, move further down */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(230, 231, 231);
+  border-radius: 20px;
+}
+

@@ -1,11 +1,11 @@
 # Node modules
-client/node_modules/
-server/node_modules/
+e-commerce/node_modules/
+ecommerce-backend/node_modules/
 
 # Build folders
-client/build/
+e-commerce/build/
 
 # Environment variables
 .env
-server/.env
+ecommerce-backend/.env
 node_modules
