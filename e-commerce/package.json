@@ -15,6 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://himanshi745.github.io/simple-shop",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Himanshi745/simple-shop.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
