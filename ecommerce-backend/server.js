@@ -26,6 +26,10 @@ app.use(express.json());
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/orders", orderRoutes);
 
+app.get("/", (req, res) => {
+  res.send("✅ Backend API is running successfully!");
+});
+
 // ✅ MongoDB Connection and Server Start
 const startServer = async () => {
   try {
