@@ -166,7 +166,7 @@ useEffect(() => {
 
 export default function App() {
   return (
-    <Router ">
+    <Router >
       <AppContent />
       {/* Your Routes */}
     </Router>
