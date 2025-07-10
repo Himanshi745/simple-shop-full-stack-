@@ -153,11 +153,7 @@ useEffect(() => {
       {(location.pathname === "/" || location.pathname === "/orders") && (
         <div ref={cartRef}>
           <Cart cart={cartItems} removeFromCart={removeFromCart} setCart={setCart} handlePlaceOrder={handlePlaceOrder} />
-          // {cartItems.length > 0 && location.pathname === "/" && (
-          //   <button className="place-order-btn" onClick={handlePlaceOrder}>
-          //     Place Order
-          //   </button>
-          // )}
+          
         </div>
       )}
     </div>
