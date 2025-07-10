@@ -10,12 +10,12 @@ const app = express();
 
 // ✅ Apply CORS before any routes
 app.use(cors({
-  origin: "https://himanshi745.github.io",
+  origin: "https://e-commerce-frontend-ijk2.onrender.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
