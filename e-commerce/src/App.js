@@ -79,7 +79,7 @@ useEffect(() => {
   if (!token) return alert("Please login to place an order.");
     try {
       const res = await axios.post(
-        "https://simple-shop-nstj.onrender.com/api/...",
+        "https://simple-shop-full-stack.onrender.com/api/",
         { items: [Cart],
           address,
           phone,
