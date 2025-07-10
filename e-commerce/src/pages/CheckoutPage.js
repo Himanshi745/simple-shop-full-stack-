@@ -32,7 +32,7 @@ const CheckoutPage = () => {
 
     try {
       setIsPlacingOrder(true);
-      await axios.post("https://simple-shop-full-stack.onrender.com/api/auth/order", {
+      await axios.post("https://simple-shop-full-stack.onrender.com/api/order", {
         items: [product],
         address,
         phone,
