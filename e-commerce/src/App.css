@@ -147,13 +147,3 @@ body {
   border-radius: 20px;
 }
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f4f4f4;
-  overflow-x: hidden;
-}
-
-.app {
-  padding: 1rem;
-}
