@@ -14,7 +14,7 @@ function RegisterPage() {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://simple-shop-nstj.onrender.com/api/auth/register", {
+      const res = await axios.post("https://simple-shop-full-stack.onrender.com//api/auth/register", {
         name,
         email,
         password,
