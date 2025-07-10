@@ -10,7 +10,7 @@ function LoginPage() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://simple-shop-full-stack.onrender.com/login", {
+      const res = await axios.post("https://simple-shop-full-stack.onrender.com/api/auth/login", {
         email,
         password,
       });
