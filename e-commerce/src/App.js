@@ -1,7 +1,7 @@
 // App.js
 import React, { useRef, useState, useCallback, useEffect } from "react";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   useLocation,
@@ -166,7 +166,7 @@ useEffect(() => {
 
 export default function App() {
   return (
-    <Router basename="/simple-shop">
+    <Router ">
       <AppContent />
       {/* Your Routes */}
     </Router>
