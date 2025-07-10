@@ -58,3 +58,10 @@
   margin: 5px 0;
   width: 90%;
 }
+
+@media (min-width: 600px) {
+  .cart-item {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
