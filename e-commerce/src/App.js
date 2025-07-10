@@ -155,7 +155,7 @@ useEffect(() => {
           <Cart cart={cartItems} removeFromCart={removeFromCart} setCart={setCart} handlePlaceOrder={handlePlaceOrder} />
           {cartItems.length > 0 && location.pathname === "/" && (
             <button className="place-order-btn" onClick={handlePlaceOrder}>
-              Place Order
+              // Place Order
             </button>
           )}
         </div>
