@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import "./AuthForm.css";
+
 
 function RegisterPage() {
   const [name, setName] = useState("");
@@ -30,7 +32,7 @@ function RegisterPage() {
   };
 
   return (
-    <div class="regi">
+    <div class="regi" className="auth-container">
         <form onSubmit={handleRegister} style={{ padding: "2rem" }}>
           <h2>Register</h2>
           <input
