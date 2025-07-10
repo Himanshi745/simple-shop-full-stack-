@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import "./AuthForm.css";
 
 
 function LoginPage() {
@@ -27,7 +26,7 @@ function LoginPage() {
   };
 
   return (
-    <div class="regi" className="auth-container">
+    <div class="regi" >
       <form onSubmit={handleLogin} style={{ padding: "2rem" }}>
         <h2>Login</h2>
         <input
