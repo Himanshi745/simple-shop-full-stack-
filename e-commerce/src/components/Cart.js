@@ -27,7 +27,7 @@ function Cart({ cart, removeFromCart }) {
       return;
     }
     try {
-      await axios.post("http://localhost:5000/api/orders", {
+      await axios.post("https://simple-shop-full-stack.onrender.com/api/orders", {
         items: [selectedItem],
         address,
         phone,
